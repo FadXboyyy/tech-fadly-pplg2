@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!--My Css-->
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>PROJECT AKHIR CSS | FADLY</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item color-light">
+                <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <a class="nav-link active" href="#service">Service</a>
+                </li>
+                <a class="nav-link active" href="#Price">Price</a>
+                </li>
+                <a class="nav-link active" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"></script>
+<script>
+  var nav = document.querySelector('nav');
+
+  window.addEventListener('scorll',function (){
+    if (window.pageXOffset >100){
+      nav.classList.add('bg-dark', 'shadow');
+    }
+  });
+</script>
+    <!--akhir navbar -->
+    <!--jumbotron-->
+    
+    <section class="jumbotron">
+       <div class="banner-atas">
+           <div class="gambar-atas">
+            <img src="/pngwing.com.png" class="align-center float-end" width="400">
+           </div>
+            <div class="text-atas text-light">
+            <h1>M-One Tech Net Internet Service Provider</h1>
+              <p>Kami hadir menyediakan internet murah berkualitas untuk anda</p>
+              <p class="d-inline-block bg-primary">24/7 full support</p>
+              <p class="d-inline-block bg-primary">Berdiri sejak 1996 di kota solo</p>
+            </div>
+       </div>
+        </section>
+    
+    <!--akhir jumbotron-->
+    <!--service-->
+    <div id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1> M-one joss</h1>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" align="center">
+                    <i class="bi bi-check2-square" style="font-size: 50px; color: blue;"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">IT Infrastruktur</h4>
+                      <p class="card-text">Setup Jaringan,Data Center,CCTV,local loop,Maintenace Komputer,etc</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" align="center">
+                  <i class="bi bi-cloud-upload" style="font-size: 50px; color: blue;"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Jaringan Internet</h4>
+                      <p class="card-text">Mulai dari 100rb/Bulan Unlimited,Support 24/7,Biaya survey gratis</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" align="center">
+                  <i class="bi bi-envelope" style="font-size: 50px; color: blue;"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Web Hosting</h4>
+                      <p class="card-text">Mulai dari 10rb/bulan,25Mb space,5 Email account</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </div>
+<!--akhir service-->
+    <!--price-->
+  <section id="Price">
+<div class="container1-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Daftar Paket M-one Tech Net</h2>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card" style="width: 17rem;" align="center">
+      <div class="card-body text-center">
+        <p style="font-weight: 800;">Home 1</p>
+        <p class="text-muted pt-0" style="font-size: 19px;">For Personal User</p>
+        <sup style=" color: Blue; font-weight: 600; font-size: 20px;">Rp</sup>
+        <label style=" color: Blue; font-size: 60px; font-weight: 600;">100K</label>
+        <label style="color: Blue; font-size: 14px; font-weight: 700;">/Bulan</label>
+        <hr>
+        <p class="text-muted pt-0" style="font-size: ;10px font-weight: 500;">Speed Up to 3Mbps</p>
+        <p class="text-muted pt-0" style="font-size: ;10px font-weight: 500;">Unlimited</p>
+        <p class="text-muted pt-0" style="font-size: ;10px font-weight: 500;">Support 24/7</p>
+        <hr>
+        <button class="btn btn-primary">BUY</button>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4 mb-3 ">
+      <div class="card" style="width: 17rem;" align="center;">  
+      <div class="card-body text-center" style="background-color: blue; color: white;">
+        <p style="font-weight: 800;">Home 2</p>
+        <p style="font-size: 19px;">For Personal User</p>
+        <sup style=" color: white; font-weight: 600; font-size: 20px;">Rp</sup>
+        <label style=" color: white; font-size: 60px; font-weight: 600;">150K</label>
+        <label style="color: white; font-size: 14px; font-weight: 700;">/Bulan</label>
+        <hr>
+        <p style="font-size: ;10px font-weight: 500;">Speed Up to 4Mbps</p>
+        <p style="font-size: ;10px font-weight: 500;">Unlimited</p>
+        <p style="font-size: ;10px font-weight: 500;">Support 24/7</p>
+        <hr>
+        <button class="btn btn-light">BUY</button>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card" style="width: 17rem;" align="center;">
+      <div class="card-body text-center">
+        <p style="font-weight: 800;">Home 3</p>
+        <p class="text-muted pt-0" style="font-size: 19px;">For Personal User</p>
+        <sup style=" color: Blue; font-weight: 600; font-size: 20px;">Rp</sup>
+        <label style=" color: Blue; font-size: 60px; font-weight: 600;">200K</label>
+        <label style="color: Blue; font-size: 14px; font-weight: 700;">/Bulan</label>
+        <hr>
+        <p class="text-muted pt-0" style="font-size: ;10px font-weight: 500;">Speed Up to 5Mbps</p>
+        <p class="text-muted pt-0" style="font-size: ;10px font-weight: 500;">Unlimited</p>
+        <p class="text-muted pt-0" style="font-size: ;10px font-weight: 500;">Support 24/7</p>
+        <hr>
+        <button class="btn btn-primary">BUY</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+    <!--Akhir price-->
+    <!--Contact-->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+      <div class="col">
+        <h2>KONTAK</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.9933765974406!2d110.83945801437538!3d-7.683857978202824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3c119dde9571%3A0x7dc84ec7b2e39df!2sSMK%20Muhammadiyah%201%20Sukoharjo!5e0!3m2!1sen!2sid!4v1662899049805!5m2!1sen!2sid" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+        <div class="col mb-4 mx-auto">
+          <div class="icon-body" style=" border: solid 1px rgba(0,0,0,.125) ">
+          <a href="#"><i class="bi bi-instagram" style="font-size:40px;"></i></a>
+          <p style="font-size: 20px;">Instagram</p><p class="text-muted">M-One Tech Net</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 mx-auto">
+          <div class="icon-body" style=" border: solid 1px rgba(0,0,0,.125) ">
+            <a href="#"><i class="bi bi-whatsapp" style="font-size:40px;"></i></a>
+            <p style="font-size: 20px;">Whatsapp</p><p class="text-muted">+62895340279119</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="icon-body" style=" border: solid 1px rgba(0,0,0,.125) ">
+        <a href="#"><i class="bi bi-envelope" style="font-size:40px;"></i></a>
+        <p style="font-size: 20px;">Email</p><p class="text-muted" style="font-size: 14px;">M-OneNet@Net.net.id</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+    <!-- Akhir Contact-->
+    <!--FOOTER-->
+    <footer class="bg-dark text-white text-center pb-4">
+      <br>
+      <br>
+        <p>M-One Tech Net Internet Service Provider 2022 BY FADLY RIZKI MAULANA</p>
+    </footer>
+    <!--AKHIR FOOTER-->
+  </body>
+</html>
